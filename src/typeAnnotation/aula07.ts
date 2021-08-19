@@ -24,7 +24,7 @@ const squareOfTwoNumber = squareOf(2);
 const squareOfTwoString = squareOf('2');
 
 if (squareOfTwoNumber === null) {
-  console.log('Conta inválda');
+  console.log('Conta inválida');
 } else {
   console.log(squareOfTwoNumber * 100);
 }
