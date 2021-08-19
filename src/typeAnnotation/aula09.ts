@@ -10,7 +10,7 @@ enum Colors {
   ROSA, //Quando não especificado ele pega o valor anterior e soma +1
 }
 
-function colorChoice(color: Colors): void {
+export function colorChoice(color: Colors): void {
   console.log(Colors[color]);
 }
 
