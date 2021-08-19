@@ -9,7 +9,7 @@ console.log(dadosCliente2);
 console.log(dadosCliente3);
 console.log(dadosCliente4);
 
-// readonly array
+// readonly Array
 const array1: readonly string[] = ['Script', 'Camilo'];
 const array2: ReadonlyArray<string> = ['Script', 'Camilo'];
 
