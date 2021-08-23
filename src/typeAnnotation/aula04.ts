@@ -1,3 +1,5 @@
+// OBJECT
+
 const objA: {
   readonly keyA: string;
   keyB: string;
@@ -6,4 +8,4 @@ const objA: {
   keyB: 'B value',
 };
 
-console.log(objA);
+console.log(objA); // { keyA: 'A value', keyB: 'B value' }

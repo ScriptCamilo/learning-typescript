@@ -1,3 +1,5 @@
+// INTERSECTION
+
 type HasName = { name: string };
 type HasLastname = { lastname: string };
 type HasAge = { age: number };

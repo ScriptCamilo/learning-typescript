@@ -1,6 +1,8 @@
+// NULL & UNDEFINED
+
 let x;
 if (typeof x === 'undefined') x = 20;
-console.log(x * 2);
+console.log(x * 2); // 40
 
 function createPerson(
   firstName: string,
@@ -26,5 +28,5 @@ const squareOfTwoString = squareOf('2');
 if (squareOfTwoNumber === null) {
   console.log('Conta inválida');
 } else {
-  console.log(squareOfTwoNumber * 100);
+  console.log(squareOfTwoNumber * 100); // 400
 }

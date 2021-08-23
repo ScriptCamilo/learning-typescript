@@ -1,3 +1,5 @@
+// ENUM
+
 enum Colors {
   VERMELHO = 10,
   AZUL = 100,
@@ -14,4 +16,4 @@ export function colorChoice(color: Colors): void {
   console.log(Colors[color]);
 }
 
-colorChoice(10);
+colorChoice(10); // VERMELHO
